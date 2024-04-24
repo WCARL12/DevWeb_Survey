@@ -9,3 +9,9 @@
   <li>Integrated Google Fonts for custom typography and included checkboxes and radio buttons for user selections.</li>
   <li>Incorporated fieldsets and labels for better form organization and usability.</li>
 </ul>
+
+<h2>Website Screenshots:</h2>
+<br>
+<br>
+
+![image](https://github.com/WCARL12/DevWeb_Survey_version_2/assets/139624156/058aecae-a463-4c7c-ba35-b24d34523491)
