@@ -1,0 +1,119 @@
+body {
+  background-image: linear-gradient(rgb(108 94 235 / 70%), rgb(0 0 0 / 70%)),
+    url(Survey_1.jpg);
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1200px;
+}
+
+header{
+  text-align: center;
+}
+
+header h2{
+  font-family: Yeseva One;
+  letter-spacing: 0.7px;
+  font-size: 2.1em;
+  color: #f5f5f5;
+  text-shadow: 0px 0px 8px black;
+}
+header p {
+  font-size: 1em;
+  font-family: arial;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 0 0 3px black;
+  margin-bottom: 50px;
+}
+
+fieldset{
+  width:80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(38 25 49 / 50%);
+}
+
+.label{
+  font-family: Bricolage Grotesque;
+  font-size: 1.7em;
+
+}
+input{
+  font-family: Bricolage Grotesque;
+  font-size: 1.3em;
+  margin-top:5px;
+}
+.user_input{
+  display: block;
+  min-height: 30px;
+
+}
+#section_5 select{
+  font-family: Bricolage Grotesque;
+  font-size: 1.3em;
+  margin-top:5px;
+  width: 120px;
+  /* border-radius: 10px; */
+  height: 35px;
+}
+.section_user_input_all{
+  margin-bottom:1.2%;
+  
+}
+p.label{
+  margin: 20px 0 12px 0;
+}
+#section_6 .options{
+  font-size: 1.15em;
+}
+
+#section_8 textarea{
+  min-height: 200px;
+  width: 70%;
+  max-width: 500px;
+}
+
+#section_7 .options{
+  font-size: 1.15em;
+}
+
+.submit {
+  position: relative;
+  margin-top: 20px;
+  font-family: Bricolage Grotesque;
+  font-size: 18px;
+  font-weight: 600;
+  height: 60px;
+  width: 90px;
+  background-color: #869de9;
+  cursor: pointer;
+  transition: 1s;
+}
+.submit:hover {
+  background-color: #7087ff;
+  color: black;
+  scale: 1.1;
+  transition: ease 0.5s;
+}
+
+@media only screen and (max-width: 1000px){
+  body{
+    font-size: 90%;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px){
+  fieldset{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  body{
+    font-size: 85%;
+  }
+}
