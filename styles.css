@@ -1,3 +1,4 @@
+
 body {
   background-image: linear-gradient(rgb(108 94 235 / 70%), rgb(0 0 0 / 70%)),
     url(Survey_1.jpg);
@@ -65,6 +66,9 @@ input{
 p.label{
   margin: 20px 0 12px 0;
 }
+#section_6 div{
+  display:inline-block;
+}
 #section_6 .options{
   font-size: 1.15em;
 }
@@ -73,6 +77,10 @@ p.label{
   min-height: 200px;
   width: 70%;
   max-width: 500px;
+}
+
+#section_7 div{
+  display: inline-block;
 }
 
 #section_7 .options{
@@ -110,10 +118,19 @@ p.label{
   fieldset{
     width: 90%;
   }
+  #section_7 div{
+    display: block;
+  }
+
+  #section_6 div{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 500px){
   body{
-    font-size: 85%;
+    font-size: 80%;
   }
+
 }
+
