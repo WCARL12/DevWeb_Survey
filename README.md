@@ -1,4 +1,4 @@
-# DevWeb_Survey_version_2
+# DevWeb_Survey
 
 <a href='https://wcarl12.github.io/DevWeb_Survey_version_2/'>Website Link</a>
 
